@@ -1,0 +1,30 @@
+.sidebarItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 8px;
+  width: 224px;
+  height: 40px;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #4b5563;
+  margin: 16px;
+  transition: 0.3s ease-in-out;
+}
+.sidebarItem-dark {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.sidebarItem:hover {
+  background-color: #e5e7eb;
+  color: #1f2a37;
+}
+.sidebarItem-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}

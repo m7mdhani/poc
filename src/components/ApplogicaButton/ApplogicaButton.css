@@ -1,0 +1,44 @@
+.applogica-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.applogica-btn:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.applogica-btn-dark {
+  background-color: var(--secondary-color);
+}
+
+.applogica-btn-dark:hover {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.applogica-btn:hover,
+.applogica-btn-dark:hover {
+  background-color: white;
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 768px) {
+  .applogica-btn {
+    margin: auto;
+  }
+}

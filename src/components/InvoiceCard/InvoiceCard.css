@@ -1,0 +1,37 @@
+/* Invoice Card */
+.invoice-card {
+  background-color: white;
+  border: 1px solid #e7e5eb;
+  border-radius: 8px;
+  padding: 12px 0 16px 24px;
+  font-style: normal;
+  width: 168px;
+  transition: .4s;
+}
+.invoice-card-dark {
+  background-color: black;
+}
+.invoice-card:hover {
+  transform: scale(1.1);
+}
+/* Card Status */
+.card-status {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  margin-bottom: 8px;
+  color: #4b5563;
+  width: fit-content;
+}
+.card-status-dark {
+  color: white;
+}
+/* Card Total */
+.card-total {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
